@@ -33,6 +33,7 @@ header h1 {
   background-color: #fff;
   border-radius: .5em;
   /* TODO: drop shadow */
+  box-shadow: 0 5px 15px -10px #000;
 }
 
 .login input,

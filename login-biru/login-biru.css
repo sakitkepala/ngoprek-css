@@ -1,0 +1,69 @@
+/* TODO: import web font */
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #5e91f8;
+  color: #fff;
+}
+
+body * + * {
+  margin-top: 1em;
+}
+
+.kontainer {
+  width: 500px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.kartu {
+  padding: 3em;
+  background-color: #fff;
+  border-radius: .5em;
+  /* TODO: drop shadow */
+}
+
+.login input,
+.login button {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  border-radius: .3em;
+}
+
+.login input {
+  border: solid 1px #ced3e0;
+}
+
+.login input::placeholder {
+  color: #ced3e0;
+}
+
+.login button {
+  margin-top: 1.5em;
+  border: none;
+  background-color: #5e91f8;
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a.daftar {
+  font-weight: bold;
+}

@@ -1,5 +1,5 @@
 /* TODO: import web font */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 
 :root {
   box-sizing: border-box;
@@ -47,6 +47,9 @@ header h1 {
   width: 100%;
   padding: 1em;
   border-radius: .3em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  /* font-weight: 600; */
 }
 
 .login input {
@@ -63,10 +66,12 @@ header h1 {
   background-color: #5e91f8;
   color: #fff;
   text-align: center;
+  font-weight: 600;
 }
 
 footer {
   margin-top: 2em;
+  font-weight: 300;
 }
 
 footer .lupa-pass {
@@ -91,6 +96,6 @@ footer::after {
 
 .daftar a {
   color: #fff;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
 }

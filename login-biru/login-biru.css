@@ -19,12 +19,15 @@ body {
 }
 
 body * + * {
-  margin-top: 1em;
+  margin-top: .6em;
 }
 
 .kontainer {
-  width: 500px;
+  width: 450px;
   margin: 0 auto;
+}
+header {
+  margin-top: 200px;
 }
 
 header h1 {
@@ -35,7 +38,7 @@ header h1 {
 }
 
 .kartu {
-  padding: 3em;
+  padding: 3.5em;
   background-color: #fff;
   border-radius: .5em;
   box-shadow: 0 5px 15px -10px #000;
@@ -45,11 +48,10 @@ header h1 {
 .login button {
   display: block;
   width: 100%;
-  padding: 1em;
+  padding: .8em;
   border-radius: .3em;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  /* font-weight: 600; */
 }
 
 .login input {
@@ -71,6 +73,7 @@ header h1 {
 
 footer {
   margin-top: 2em;
+  font-size: 1em;
   font-weight: 300;
 }
 

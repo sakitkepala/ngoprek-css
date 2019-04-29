@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Profil Kucing Kamu</title>
-  <link rel="stylesheet" type="text/text" href="profil.css">
+  <link rel="stylesheet" type="text/css" href="profil.css">
 </head>
 <body>
-  <div class="kolom">
+  <div class="kolom kolom-kiri">
     <aside class="sidebar-progres-kiri">
       <h1>Pawtastic</h1>
 
@@ -17,39 +17,53 @@
         <li>Konfirmasi</li>
       </ul>
 
-      <div><a href="">Simpan dan keluar</a></div>
+      <div><a class="tombol-link-simpan" href="">Simpan dan keluar</a></div>
     </aside>
   </div>
 
-  <div class="kolom">
+  <div class="kolom kolom-kanan">
     <main class="utama">
       <h1>Yay, kita suka kucing! Beri kami informasi dasar kucing kamu.</h1>
 
       <form>
-        <label for="nama">Nama</label>
-        <input id="nama" type="text" placeholder="Nama kucingnya">
+        <div>
+          <label for="nama">Nama</label>
+          <input id="nama" type="text" placeholder="Nama kucingnya">
+        </div>
 
-        <label for="unggah-foto">Upload fotonya</label>
-        <input id="unggah-foto" type="file" placeholder="Upload fotonya">
+        <div>
+          <label for="unggah-foto">Upload fotonya</label>
+          <input id="unggah-foto" type="file" placeholder="Upload fotonya">
+        </div>
 
-        <label for="jenis-kucing">Jenis kucing</label>
-        <input id="jenis-kucing" type="text" placeholder="Jenis kucingnya">
+        <div>
+          <label for="jenis-kucing">Jenis kucing</label>
+          <input id="jenis-kucing" type="text" placeholder="Jenis kucingnya">
+        </div>
 
-        <label for="tanggal-lahir">Tanggal lahir</label>
-        <input id="tanggal-lahir" type="date" placeholder="HH/BB/TTTT">
+        <div>
+          <label for="tanggal-lahir">Tanggal lahir</label>
+          <input id="tanggal-lahir" type="date" placeholder="HH/BB/TTTT">
+        </div>
 
-        <label>Jenis Kelamin</label>
-        <input type="radio" name="jenis-kelamin" id="jantan"><label for="jantan">Jantan</label>
-        <input type="radio" name="jenis-kelamin" id="betina"><label for="betina">Betina</label>
+        <div>
+          <label>Jenis Kelamin</label>
+          <input type="radio" name="jenis-kelamin" id="jantan"><label for="jantan">Jantan</label>
+          <input type="radio" name="jenis-kelamin" id="betina"><label for="betina">Betina</label>
+        </div>
 
-        <label>Disteril?</label>
-        <input type="radio" name="jenis-kelamin" id="steril-ya"><label for="steril-ya">Ya</label>
-        <input type="radio" name="jenis-kelamin" id="steril-tidak"><label for="steril-tidak">Tidak</label>
+        <div>
+          <label>Disteril?</label>
+          <input type="radio" name="jenis-kelamin" id="steril-ya"><label for="steril-ya">Ya</label>
+          <input type="radio" name="jenis-kelamin" id="steril-tidak"><label for="steril-tidak">Tidak</label>
+        </div>
 
-        <label>Berat Badan</label>
-        <input type="radio" name="jenis-kelamin" id="berat-0"><label for="berat-0">0-5 kg</label>
-        <input type="radio" name="jenis-kelamin" id="berat-5"><label for="berat-5">5-10 kg</label>
-        <input type="radio" name="jenis-kelamin" id="berat-10"><label for="berat-10">10+ kg</label>
+        <div>
+          <label>Berat Badan</label>
+          <input type="radio" name="jenis-kelamin" id="berat-0"><label for="berat-0">0-5 kg</label>
+          <input type="radio" name="jenis-kelamin" id="berat-5"><label for="berat-5">5-10 kg</label>
+          <input type="radio" name="jenis-kelamin" id="berat-10"><label for="berat-10">10+ kg</label>
+        </div>
 
         <a href="">Sebelumnya</a>
         <a href="">Berikutnya</a>

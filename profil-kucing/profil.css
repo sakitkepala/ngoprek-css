@@ -1,3 +1,88 @@
 /* profil.css */
 
+:root {
+  box-sizing: border-box;
+}
 
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body, div, h1 {
+  margin: 0;
+}
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+.kolom-kiri {
+  width: 40%;
+  background-color: #393D52;
+}
+
+.kolom-kanan {
+  width: 60%;
+  background-color: #F1E0DE;
+}
+
+.kolom-kiri,
+.kolom-kanan {
+  display: block;
+  clear: both;
+  content: " "
+}
+
+.kolom {
+  float: left;
+  margin: 0;
+}
+
+.sidebar-progres-kiri {
+  min-width: 100px;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: red; */
+  color: #fff;
+}
+
+.utama {
+  min-width: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: yellow; */
+  color: #393D52;
+}
+
+.tombol-link-simpan {
+  color: #fff;
+  /* text-decoration: none; */
+}
+
+/* .tombol-link-simpan,
+.tombol-link-simpan:link,
+.tombol-link-simpan:active {
+  color: #fff;
+}
+
+.tombol-link-simpan:hover {
+  color: #fff;
+}
+
+.tombol-link-simpan:visited {
+  color: #fff;
+} */
+
+.utama form div {
+  display: inline-block;
+  width: 50%;
+}
+
+.utama form label,
+.utama form input {
+  display: block;
+}

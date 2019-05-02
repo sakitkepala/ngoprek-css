@@ -77,6 +77,10 @@ body * + * {
   color: #fff;
 } */
 
+.utama form {
+  margin: 0;
+}
+
 .utama form div {
   display: inline-block;
   width: 50%;

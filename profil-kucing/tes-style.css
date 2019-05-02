@@ -1,0 +1,36 @@
+/* BOX SIZING */
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+
+/* RESET */
+/* * {
+  margin: 0;
+} */
+
+
+/* PROFIL */
+.kolom-kiri {
+  float: left;
+  width: 40%;
+  border: dashed 1px grey;
+}
+
+.kolom-kanan {
+  float: left;
+  width: 60%;
+  border: dashed 1px grey;
+}
+
+/* .kolom-form::after {
+  clear: both;
+  content: " ";
+} */

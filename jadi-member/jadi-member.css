@@ -1,0 +1,83 @@
+/* jadi-member.css */
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 12pt;
+}
+
+main {
+  float: left;
+  width: 70%;
+  height: 100vh;
+}
+
+.utama-isi {
+  padding: 5em 4em;
+}
+
+.tombol-grup {
+  margin-top: 4em;
+}
+
+.tombol-grup * + * {
+  margin-top: 1em;
+}
+
+.tombol-daftar {
+  display: block;
+  width: 100%;
+  padding: 1em 1.5em;;
+  padding-left: 6em;
+  border: solid 1px silver;
+  border-radius: .2em;
+}
+
+.tombol-daftar:hover {
+  box-shadow: 0 10px 10px 10px;
+}
+
+main footer {
+  /* position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2.5em 5em; */
+  padding: 2.5em 4em;
+  border-top: solid 1px silver;
+}
+
+main footer::after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+
+.footer-teks {
+  float: left;
+}
+
+.footer-link {
+  float: right;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: lime;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  height: 100vh;
+  background-image: url('daily_ui_day1.png');
+}
